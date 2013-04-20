@@ -39,10 +39,6 @@ QT4_ADD_RESOURCES(viewer_RES src/icons.qrc)
 
 #found QGLViewer lib dir
 
-message("${QT_LIBRARY_DIR}")
-message("${QT_LIBRARIES}")
-message("${QGLViewer_LIBRARY_DIR}")
-
 #link_directories(#${QGLViewer_LIBRARY_DIR}
 ##  ${QT_LIBRARY_DIR}
 #)
